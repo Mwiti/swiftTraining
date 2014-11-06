@@ -13,6 +13,8 @@
 		E64C36A11A016295001F34EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64C36A01A016295001F34EE /* Images.xcassets */; };
 		E64C36A41A016295001F34EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64C36A21A016295001F34EE /* LaunchScreen.xib */; };
 		E64C36B01A016295001F34EE /* Swift_TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64C36AF1A016295001F34EE /* Swift_TrainingTests.swift */; };
+		E64CC3BF1A03CB18006CD24C /* Sarah-ad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E64CC3BE1A03CB18006CD24C /* Sarah-ad.jpg */; };
+		E65F320C1A0ABB3400B774DA /* Nifties-Logo-Transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = E65F320B1A0ABB3400B774DA /* Nifties-Logo-Transparent.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E64C36A91A016295001F34EE /* Swift TrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift TrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64C36AE1A016295001F34EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E64C36AF1A016295001F34EE /* Swift_TrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TrainingTests.swift; sourceTree = "<group>"; };
+		E64CC3BE1A03CB18006CD24C /* Sarah-ad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sarah-ad.jpg"; sourceTree = "<group>"; };
+		E65F320B1A0ABB3400B774DA /* Nifties-Logo-Transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nifties-Logo-Transparent.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				E64C369D1A016295001F34EE /* Main.storyboard */,
 				E64C36A01A016295001F34EE /* Images.xcassets */,
 				E64C36A21A016295001F34EE /* LaunchScreen.xib */,
+				E64CC3BE1A03CB18006CD24C /* Sarah-ad.jpg */,
 				E64C36971A016295001F34EE /* Supporting Files */,
 			);
 			path = "Swift Training";
@@ -90,6 +95,7 @@
 		E64C36971A016295001F34EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E65F320B1A0ABB3400B774DA /* Nifties-Logo-Transparent.png */,
 				E64C36981A016295001F34EE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64CC3BF1A03CB18006CD24C /* Sarah-ad.jpg in Resources */,
 				E64C369F1A016295001F34EE /* Main.storyboard in Resources */,
 				E64C36A41A016295001F34EE /* LaunchScreen.xib in Resources */,
+				E65F320C1A0ABB3400B774DA /* Nifties-Logo-Transparent.png in Resources */,
 				E64C36A11A016295001F34EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				E64C36B51A016295001F34EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64C36B61A016295001F34EE /* Build configuration list for PBXNativeTarget "Swift TrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				E64C36B81A016295001F34EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
